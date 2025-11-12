@@ -1,0 +1,26 @@
+/* Estilo arcano para ArcaneTetris */
+.root {
+    -fx-background-color: #0d1b2a;
+    -fx-font-family: "Arial";
+}
+
+.button {
+    -fx-cursor: hand;
+}
+
+/* Efeitos de brilho para feitiços */
+.spell-active {
+    -fx-effect: dropshadow(gaussian, #9d4edd, 20, 0.5, 0, 0);
+}
+
+/* Animação de shake para efeitos */
+@keyframes shake {
+    0%, 100% { translate-x: 0; }
+    25% { translate-x: -5px; }
+    75% { translate-x: 5px; }
+}
+
+.shake {
+    -fx-animation: shake 0.3s;
+}
+
